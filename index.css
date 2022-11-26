@@ -11,4 +11,14 @@
     border: 2px solid black;
     height: 600px;
     width: 1200px;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.squares {
+    border: 2px solid black;
+    height: 40px;
+    width: 100px;
 }
