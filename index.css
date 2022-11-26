@@ -27,8 +27,9 @@ body {
 
 .rectangles {
     display: flex;
-    place-items: center;
-    place-content: center;
+    flex-direction: row;
+    /* place-items: center;
+    place-content: center; */
     border: 1px solid black;
     height: 100%;
     width: 100%;
@@ -39,10 +40,17 @@ body {
     display: flex;
     place-items: center;
     place-content: center;
-    border: 1px solid black;
+    place-self: center;
+    border: 1px solid white;
     height: 36px;
     width: 36px;
     background-color: rgb(125, 125, 173);
     color: white;
     font-weight: bold;
+}
+
+.arrow {
+    width: 100px;
+    height: 10px;
+    border: 1px solid black;
 }
