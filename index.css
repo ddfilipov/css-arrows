@@ -19,7 +19,16 @@
 }
 
 .rectangles {
-    border: 2px solid black;
-    height: 40px;
-    width: 100px;
+    display: flex;
+    place-items: center;
+    place-content: center;
+    border: 1px solid black;
+    height: 100%;
+    width: 100%;
+}
+
+.squares {
+    border: 1px solid black;
+    height: 36px;
+    width: 36px;
 }
