@@ -1,5 +1,14 @@
 .container {
-    background-color: blue;
-    width: 100px;
-    height: 100px;
+    background-color: rgb(211, 211, 231);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+}
+
+.main-grid {
+    border: 2px solid black;
+    height: 600px;
+    width: 1200px;
 }
