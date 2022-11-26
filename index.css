@@ -11,11 +11,14 @@
     border: 2px solid black;
     height: 600px;
     width: 1200px;
+    background-color: rgb(185, 185, 214);
 
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     place-items: center;
+    gap: 5px;
+    padding: 5px;
 }
 
 .rectangles {
@@ -25,10 +28,17 @@
     border: 1px solid black;
     height: 100%;
     width: 100%;
+    background-color: rgb(151, 151, 194);
 }
 
 .squares {
+    display: flex;
+    place-items: center;
+    place-content: center;
     border: 1px solid black;
     height: 36px;
     width: 36px;
+    background-color: rgb(125, 125, 173);
+    color: white;
+    font-weight: bold;
 }
