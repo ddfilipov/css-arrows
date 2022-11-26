@@ -1,3 +1,7 @@
+body {
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
 .container {
     background-color: rgb(211, 211, 231);
     display: flex;
